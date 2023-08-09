@@ -25,7 +25,6 @@ class Services {
 
     }
     prepareData(xmlData) {
-     //  console.log(xmlData)
        let result = [];
         const parser = new xml2js.Parser();
         xmlData.ED807.BICDirectoryEntry.map(el =>{

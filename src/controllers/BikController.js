@@ -6,9 +6,7 @@ class BikController {
     getBik(reg, res) {
         services.fetchData(url)
             .then(data => {
-                //console.log(data)
                 res.json(data)
-             //   console.log('Данные:', data);
                 // Здесь можно выполнить запись в БД
             })
             .catch(error => {
